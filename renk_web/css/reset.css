@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{margin:0; padding:0;}
+body{font-size:16px; line-height:24px; font-family: 'Noto Sans KR', sans-serif;
+        letter-spacing:0.5px; color:#545151;}
+a{color:#545151; text-decoration:none;}
+img{border:none; vertical-align:top;}
+ul, ol{list-style:none;}
+address{font-style:normal;}
+
+.cf{}
+.cf:after{content:""; display:block; clear:both;}

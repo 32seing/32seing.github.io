@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퓨마 태블릿 시안</title>
+    <link rel="stylesheet"  href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        *{margin:0; padding:0;}
+        .tit{background:#fa1946; padding:20px; text-align: center;
+            font-size:16px; color:#fff;}
+        .mo img{width:100%; height:auto;}
+    </style>
+</head>
+<body>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="tit">[ PUMA ] 메인페이지 태블릿 시안입니다 (1/2)</div><!-- .tit -->
+            <div class="mo">
+                <img src="puma_main_m.jpg" alt="퓨마 메인페이지 모바일 시안입니다">
+            </div><!-- .mo -->
+          </div>
+          <div class="swiper-slide">
+            <div class="tit">[ PUMA ] 서브페이지 태블릿 시안입니다 (2/2)</div><!-- .tit -->
+            <div class="mo">
+                <img src="puma_sub_m.jpg" alt="퓨마 서브페이지 모바일 시안입니다">
+            </div><!-- .mo -->
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </body>
+    </html>
